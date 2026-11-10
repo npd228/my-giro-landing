@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Giro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container top-bar__inner">
+                <span class="top-bar__phone">Call us: +7 923 356 9013</span>
+                <a href="#" class="btn btn--primary btn--small">Request a Call</a>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container nav__inner">
+                <a href="#" class="logo">My-Giro</a>
+                <ul class="nav__list">
+                    <li><a href="#">Advantages</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Info</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero__inner">
+            <span class="hero__subtitle">MOVE FREELY. LIVE FULLY.</span>
+            <h1 class="hero__title">My-Giro</h1>
+            <p class="hero__desc">The largest online store of hoverboards, segways and electric scooters from famous world manufacturers.</p>
+            <a href="#" class="btn btn--white">CATALOG</a>
+        </div>
+    </section>
+
+    <!-- ADVANTAGES -->
+    <section class="section advantages">
+        <div class="container">
+            <h2 class="section__title">Our Advantages</h2>
+            <div class="grid-4">
+                <div class="advantage-card">
+                    <img src="icons/shield.svg" alt="Icon" class="advantage-card__icon">
+                    <h3 class="advantage-card__title">Quality Guarantee</h3>
+                    <p class="advantage-card__text">Original products. Official warranty.</p>
+                </div>
+                <div class="advantage-card">
+                    <img src="icons/truck.svg" alt="Icon" class="advantage-card__icon">
+                    <h3 class="advantage-card__title">Fast Delivery</h3>
+                    <p class="advantage-card__text">Your next adventure, delivered.</p>
+                </div>
+                <div class="advantage-card">
+                    <img src="icons/grid.svg" alt="Icon" class="advantage-card__icon">
+                    <h3 class="advantage-card__title">Large Assortment</h3>
+                    <p class="advantage-card__text">A ride for every kind of journey.</p>
+                </div>
+                <div class="advantage-card">
+                    <img src="icons/headset.svg" alt="Icon" class="advantage-card__icon">
+                    <h3 class="advantage-card__title">Online Consultant</h3>
+                    <p class="advantage-card__text">Real people. Expert advice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about">
+        <div class="container about__inner">
+            <div class="about__left">
+                <span class="label">A LITTLE ABOUT US</span>
+                <h2 class="section__title">About Us</h2>
+            </div>
+            <div class="about__right">
+                <p>At My-Giro, we believe the best way to discover your city is on your own terms. We bring together hoverboards, segways and electric scooters from the world's leading manufacturers, all in one place.</p>
+                <p>Whether it's your daily commute or a weekend adventure, our team will help you find the right ride. Expect honest advice, carefully selected products and support that stays with you long after your first journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SUBSCRIBE -->
+    <section class="subscribe">
+        <div class="container subscribe__inner">
+            <h2 class="subscribe__title">Subscribe to our newsletter<br>and stay updated</h2>
+            <form class="subscribe__form">
+                <input type="text" placeholder="Name" class="subscribe__input">
+                <input type="email" placeholder="Email" class="subscribe__input">
+                <button type="submit" class="btn btn--white">SUBSCRIBE</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features">
+        <div class="container">
+            <h2 class="section__title">Hoverboard Features</h2>
+            <div class="grid-3">
+                <div class="features-col">
+                    <h3 class="features-col__title">Built for everyday freedom</h3>
+                    <ul class="features-list">
+                        <li>Intuitive self-balancing controls</li>
+                        <li>Compact and easy to carry</li>
+                        <li>Smooth, quiet electric motors</li>
+                    </ul>
+                </div>
+                <div class="features-col">
+                    <h3 class="features-col__title">Comfort in every turn</h3>
+                    <ul class="features-list">
+                        <li>Responsive steering and handling</li>
+                        <li>Durable, high-grip rubber tires</li>
+                        <li>LED lights for added visibility</li>
+                    </ul>
+                </div>
+                <div class="features-col">
+                    <h3 class="features-col__title">Ready when you are</h3>
+                    <ul class="features-list">
+                        <li>Rechargeable lithium-ion battery</li>
+                        <li>Easy-to-read battery indicators</li>
+                        <li>Models for new and skilled riders</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATALOG -->
+    <section class="section catalog">
+        <div class="container">
+            <div class="catalog__header">
+                <h2 class="section__title">Catalog</h2>
+                <div class="catalog__filters">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Hoverboards</button>
+                    <button class="filter-btn">Electric Scooters</button>
+                    <button class="filter-btn">Segways</button>
+                </div>
+            </div>
+            
+            <div class="grid-4 catalog-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <span class="product-card__badge">-5%</span>
+                    <div class="product-card__image-wrapper">
+                        <img src="img/product1.jpg" alt="Product" class="product-card__img">
+                    </div>
+                    <span class="product-card__category">HOVERBOARD</span>
+                    <h3 class="product-card__title">Smart Balance Wheel 6.5"</h3>
+                    <div class="product-card__price">
+                        <span class="price-current">12,990 ₽</span>
+                        <span class="price-old">15,990 ₽</span>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <span class="product-card__badge">BESTSELLER</span>
+                    <div class="product-card__image-wrapper">
+                        <img src="img/product2.jpg" alt="Product" class="product-card__img">
+                    </div>
+                    <span class="product-card__category">ELECTRIC SCOOTER</span>
+                    <h3 class="product-card__title">Kugoo S3 Pro</h3>
+                    <div class="product-card__price">
+                        <span class="price-current">24,990 ₽</span>
+                        <span class="price-old">28,990 ₽</span>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <span class="product-card__badge">NEW</span>
+                    <div class="product-card__image-wrapper">
+                        <img src="img/product3.jpg" alt="Product" class="product-card__img">
+                    </div>
+                    <span class="product-card__category">SEGWAY</span>
+                    <h3 class="product-card__title">Mini Robot Pro</h3>
+                    <div class="product-card__price">
+                        <span class="price-current">32,990 ₽</span>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <span class="product-card__badge">-5%</span>
+                    <div class="product-card__image-wrapper">
+                        <img src="img/product4.jpg" alt="Product" class="product-card__img">
+                    </div>
+                    <span class="product-card__category">HOVERBOARD</span>
+                    <h3 class="product-card__title">Smart Balance SUV 10.5"</h3>
+                    <div class="product-card__price">
+                        <span class="price-current">18,990 ₽</span>
+                        <span class="price-old">21,990 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONSULTANTS -->
+    <section class="section consultants">
+        <div class="container">
+            <div class="section__header-flex">
+                <h2 class="section__title">Our Consultants</h2>
+                <span class="section__subtitle">A little guidance. A better ride.</span>
+            </div>
+            <div class="grid-3">
+                <!-- Consultant 1 -->
+                <div class="consultant-card">
+                    <img src="img/consultant1.jpg" alt="Alex Morgan" class="consultant-card__photo">
+                    <div class="consultant-card__info">
+                        <h3 class="consultant-card__name">Alex Morgan</h3>
+                        <p class="consultant-card__role">Mobility Specialist</p>
+                        <a href="#" class="btn btn--primary btn--small">Message</a>
+                    </div>
+                </div>
+                <!-- Consultant 2 -->
+                <div class="consultant-card">
+                    <img src="img/consultant2.jpg" alt="Emma Wilson" class="consultant-card__photo">
+                    <div class="consultant-card__info">
+                        <h3 class="consultant-card__name">Emma Wilson</h3>
+                        <p class="consultant-card__role">Product Expert</p>
+                        <a href="#" class="btn btn--primary btn--small">Message</a>
+                    </div>
+                </div>
+                <!-- Consultant 3 -->
+                <div class="consultant-card">
+                    <img src="img/consultant3.jpg" alt="Daniel Lee" class="consultant-card__photo">
+                    <div class="consultant-card__info">
+                        <h3 class="consultant-card__name">Daniel Lee</h3>
+                        <p class="consultant-card__role">Customer Advisor</p>
+                        <a href="#" class="btn btn--primary btn--small">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BRANDS -->
+    <section class="brands">
+        <div class="container brands__inner">
+            <span class="brand-logo">XIAOMI</span>
+            <span class="brand-logo">SMART</span>
+            <span class="brand-logo">BALANCE</span>
+            <span class="brand-logo">LINBOL</span>
+            <span class="brand-logo">KUGOO</span>
+            <span class="brand-logo">SUBOR</span>
+            <span class="brand-logo">AIRWHEEL</span>
+        </div>
+    </section>
+
+    <!-- USEFUL INFORMATION (BLOG) -->
+    <section class="section blog">
+        <div class="container">
+            <div class="section__header-flex">
+                <h2 class="section__title">Useful Information</h2>
+                <span class="section__subtitle">GET TO KNOW YOUR NEXT RIDE</span>
+            </div>
+            <div class="grid-4">
+                <!-- Blog Card 1 -->
+                <a href="#" class="blog-card">
+                    <img src="img/blog1.jpg" alt="Blog" class="blog-card__img">
+                    <div class="blog-card__content">
+                        <span class="blog-card__tag">01 / BUYING GUIDE</span>
+                        <h3 class="blog-card__title">How to choose your first hoverboard</h3>
+                    </div>
+                </a>
+                <!-- Blog Card 2 -->
+                <a href="#" class="blog-card">
+                    <img src="img/blog2.jpg" alt="Blog" class="blog-card__img">
+                    <div class="blog-card__content">
+                        <span class="blog-card__tag">02 / COMPARE</span>
+                        <h3 class="blog-card__title">Hoverboard or segway: find your perfect ride</h3>
+                    </div>
+                </a>
+                <!-- Blog Card 3 -->
+                <a href="#" class="blog-card">
+                    <img src="img/blog3.jpg" alt="Blog" class="blog-card__img">
+                    <div class="blog-card__content">
+                        <span class="blog-card__tag">03 / EVERYDAY RIDES</span>
+                        <h3 class="blog-card__title">Make the city your playground</h3>
+                    </div>
+                </a>
+                <!-- Blog Card 4 -->
+                <a href="#" class="blog-card">
+                    <img src="img/blog4.jpg" alt="Blog" class="blog-card__img">
+                    <div class="blog-card__content">
+                        <span class="blog-card__tag">04 / CARE & TIPS</span>
+                        <h3 class="blog-card__title">A little care. Many more adventures.</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__col footer__col--brand">
+                <a href="#" class="logo">My-Giro</a>
+                <p class="footer__desc">A new way to move. Discover hoverboards, segways and electric scooters selected for everyday freedom.</p>
+                <p class="footer__phone">Call us: +7 923 356 9013</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Company</h4>
+                <ul class="footer__list">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our advantages</a></li>
+                    <li><a href="#">Our consultants</a></li>
+                    <li><a href="#">Our brands</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">For Buyers</h4>
+                <ul class="footer__list">
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">Payment & delivery</a></li>
+                    <li><a href="#">Warranty & returns</a></li>
+                    <li><a href="#">Useful information</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Help</h4>
+                <ul class="footer__list">
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Frequently asked questions</a></li>
+                    <li><a href="#">Product care</a></li>
+                    <li><a href="#">Request a call</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <p>&copy; 2026 My-Giro. All rights reserved.</p>
+            <div class="footer__links">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms & conditions</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
